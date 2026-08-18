@@ -15,4 +15,13 @@ The lab includes:
 - ✅ DNS configuration and troubleshooting
 - ✅ PowerShell administration
 - ✅ osTicket help desk integration
-- ✅ Wireshark network traffic analysis
+
+🖥️ Initial Setup
+I set up two virtual machines using virtual box. The first VM is set up using Windows Server which will be used to run my AD environment to simulate a domain controller and where I do all of my system administration tasks. The second will serve as my host environment connected to the DC. I will use the second machine as a workstation for the employees that I create. 
+
+🏢 Active Directory Organization
+
+The AD environment uses ricky.local domain and is structured to simulate a real organization. The employees that were created are separated into created organizational units. This allows me to manage user, computers, permissions, and GPOs based on roles within the company. The following shows a breakdown of each department. Each department is filled with a few employees. 
+
+🔐 Security Groups & Access Control
+Below we have a breakdown of global security groups for the created departments
