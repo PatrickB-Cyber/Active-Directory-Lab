@@ -52,12 +52,26 @@ I configured a handful of Group Policy Objects (GPOs) to centrally manage user s
 
 Below are a series of screenshots from the user workstation that I set up, showing a few GPOs and settings configured from the DC.
 
+Login Security Banner
+
 ![Login Security Banner](screenshots/host-banner.png)
+
+User Login screen on host VM workstation
 
 ![Domain Login Screen](screenshots/host-login-screen.png)
 
+Showing that VM is joined to ricky.local
 ![Domain-Joined Workstation](screenshots/ad-domain-name.png)
 
+Drive mapping 
 ![Drive Mapping Client Verification](screenshots/ad-drive-mapping-client.png)
+
+## Powershell Commands / scripts
+
+I not only used the Server Manager GUI to administer the domain I also used Powershell to execute administration tasks. In the PS file you can see the commands used. 
+
+## Next
+
+I also set up an set up a server to host osTicket with users from this environment to simulate a helpdesk. see the osTicket-lab for more. 
 
 
