@@ -23,6 +23,7 @@ I set up two virtual machines using virtual box. The first VM is set up using Wi
 
 The AD environment uses ricky.local domain and is structured to simulate a real organization. The employees that were created are separated into created organizational units. This allows me to manage user, computers, permissions, and GPOs based on roles within the company. The following shows a breakdown of each department. Each department is filled with a few employees. 
 
+![Active Directory Organizational Structure](screenshots/ad-organizational-structure.png)
 
 🔐 Security Groups & Access Control
 Below we have a breakdown of global security groups for each department and administrative roles in the organization. Creating these groups will help give me centralized access control, which means I can assign permissions based on a user's job role or department instead of an individual account. Going a level deeper in the second screenshot we can see that I users are assigned based on their department and role. 
