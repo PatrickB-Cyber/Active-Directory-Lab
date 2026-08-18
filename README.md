@@ -32,7 +32,7 @@ Below we have a breakdown of global security groups for each department and admi
 
 ![Active Directory Security Groups](screenshots/ad-security-groups.png)
 
-![Security Group Membership](screenshots/ad-security-group-members.png)
+![Security Group Membership](screenshots/ad-security-groupmembers.png)
 
 ## 📁 Department File Shares & Permissions
 
