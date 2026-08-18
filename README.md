@@ -60,7 +60,8 @@ User Login screen on host VM workstation
 
 ![Domain Login Screen](screenshots/host-login-screen.png)
 
-Showing that VM is joined to ricky.local
+Showing that host VM is joined to ricky.local
+
 ![Domain-Joined Workstation](screenshots/ad-domain-name.png)
 
 Drive mapping 
