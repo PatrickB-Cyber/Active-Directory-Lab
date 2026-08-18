@@ -64,7 +64,8 @@ Showing that VM is joined to ricky.local
 ![Domain-Joined Workstation](screenshots/ad-domain-name.png)
 
 Drive mapping 
-![Drive Mapping Client Verification](screenshots/ad-drive-mapping-client.png)
+
+![Drive Mapping Client Verification](screenshots/ad-finance-drive-mapping-gpo.png)
 
 ## Powershell Commands / scripts
 
