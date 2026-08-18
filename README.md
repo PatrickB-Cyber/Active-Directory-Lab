@@ -28,11 +28,19 @@ The AD environment uses ricky.local domain and is structured to simulate a real 
 🔐 Security Groups & Access Control
 Below we have a breakdown of global security groups for each department and administrative roles in the organization. Creating these groups will help give me centralized access control, which means I can assign permissions based on a user's job role or department instead of an individual account. Going a level deeper in the second screenshot we can see that I users are assigned based on their department and role. 
 
+![Active Directory Security Groups](screenshots/ad-security-groups.png)
+![Security Group Membership](screenshots/ad-security-group-members.png)
+
 📁 Department File Shares & Permissions
 I created a file share for each department to simulate a centralized file storage. Each folder will have NTFS permissions assigned using the AD security groups rather than the individual accounts. In the example below, we give RICKY\Finance permissions to the finance folder. This means that when a finance employee logs into their workstation they will access to the finance share but employees from the other departments will not have access. 
 
+![Share Permissions](screenshots/ad-share-permissions.png)
+![File Permissions](screenshots/ad-file-permissions.png)
+
 ⚙️ Group Policy Management
 I configured a handful of Group Policy Objects (GPOs) to centrally manage user settings, security configurations, and network resources across the domain. I mapped some network drives to allow employees to automatically receive the network resources for their role when they sign into their workstations, enforced lock-screen settings, and displayed a security banner. In the second screenshot The GPO is mapped as the A: drive and linked to the Finance OU. 
+
+![Finance Drive Mapping GPO](screenshots/ad-finance-drive-mapping-gpo.png)
 
 🖥️ Host Workstation
 Below are a series of screenshots from the user workstation that I set up, showing a few GPOs and settings configured from the DC.
